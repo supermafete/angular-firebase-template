@@ -9,7 +9,7 @@ export const environment = {
   production: false,
   entryRoute: 'getting-started',
   firebaseConfig: {
-    apiKey: '[FIREBASE-API-KEY]'
+    apiKey: '[FIREBASE-API-KEY]',
     authDomain: '[FIREBASE_AUTH_DOMAIN]',
     databaseURL: '[FIREBASE_DATABASE_URL]',
     projectId: '[FIREBASE_PROJECT_ID]',
