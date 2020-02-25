@@ -1,27 +1,23 @@
-# FirebaseBase
+# Angular Firebase Template
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.7.
+This is a base project for Angular integrating Firebase e-mail authentication. It's designed to start your project without the need of mess with authentication.
 
-## Development server
+It also integrates [PrimeNG UI components](https://www.primefaces.org/primeng/#/) to build the user interface.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Setting up
 
-## Code scaffolding
+Just clone the repo and run:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+`npm install`
 
-## Build
+or
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+`yarn install`
 
-## Running unit tests
+## Running the project
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `npm start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Running end-to-end tests
+## About the project
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Feel free to add or modify things. Just send me a PR if you do it.
