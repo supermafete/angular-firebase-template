@@ -44,3 +44,5 @@ Run `npm start` for a dev server. Navigate to `http://localhost:4200/`. The app 
 ## About the project
 
 Feel free to add or modify things. Just send me a PR if you do it.
+
+![](https://i.postimg.cc/T1J66Bq7/shot.png)
