@@ -1,0 +1,68 @@
+<div class="centered ui-g ui-sm-12 ui-md-6 ui-lg-4">
+  <div style="position: relative; top: 50%; left: 50%; transform: translate(-50%, -3%);">
+    <div class="ui-g">
+      <div class="ui-g-12" style="text-align: center; margin-top: 70px;">
+        <img src="/assets/logo.jpg" style="width: 140px;">
+        <h2>Subtitle</h2>
+      </div>
+    </div>
+
+    <p-card [style]="{'width': '100%'}">
+      <p-header style="text-align: center; padding: 10px;">
+        <div style="font-weight: 400; font-size: 14px; padding-left: 15px; padding-right: 15px; width: 100%;">
+          <b>Welcome message</b><br>
+          Put here another kindly text
+        </div>
+      </p-header>
+      
+      <div style="text-align: center; width: 100%">
+        <div class="ui-g ui-fluid">
+          <div class="ui-g-12">
+              <div class="ui-inputgroup">
+                <span class="ui-inputgroup-addon" style="width: 130px;">E-mail</span>
+                <input type="text" pInputText [(ngModel)]="email" id="email">
+              </div>
+              <div class="ui-inputgroup" style="margin-top: 15px;">
+                <span class="ui-inputgroup-addon" style="width: 130px;">Password</span>
+                <input type="password" pInputText [(ngModel)]="password">
+              </div>
+          </div>
+        </div>
+
+        <button type="button" pButton class="ui-button-rounded" icon="pi pi-sign-in" iconPos="right" label="Log in"
+          (click)="login()"
+          style="margin-top: 15px; width: 200px; height: 40px; font-size: 14px; font-weight: 700"></button>
+        <br>
+
+        <a href="#" style="font-size: 0.8em;" (click)="rememberPassword()">I forgot my password</a>
+                
+        <hr class="separator">
+        <button type="button" pButton class="ui-button-rounded ui-button-secondary" icon="pi pi-sign-in" iconPos="right"
+          label="Sign Up" (click)="signUp()"
+          style="width: 200px; height: 40px; font-size: 14px; font-weight: 700"></button>
+      </div>
+      <!-- <button pButton class="ui-button-raised" (click)="twitterLogin()" style="width: 100%; height: 51px;">
+          <div style="width: 31%; float: left; text-align: right;">
+            <img src="/assets/twitter.png" style="width: 50px;">
+          </div>
+          <div
+            style="width: 69%; font-weight: 700; float: left; text-align: left; font-size: 16px; margin-top: 12px;">
+            Login with Twitter</div>
+        </button> -->
+      <div style="text-align: center; font-size: 0.8em; margin-top: 20px; color: #999">
+        Let me know things about the login process.
+      </div>
+    </p-card>
+    <div class="ui-g-12" style="text-align: center; margin-top: 20px;">
+      <b><a href="#" target="_a">Some Links</a></b>
+      &nbsp;&nbsp;|&nbsp;&nbsp;
+      <b><a href="#" target="_a">To our</a></b>
+      &nbsp;&nbsp;|&nbsp;&nbsp;
+      <b><a href="#" target="_a">Product pages</a></b>
+
+    </div>
+    <div class="ui-g-12" style="text-align: center; font-size: 0.8em; color: #999;">
+      Version {{ version }}
+    </div>
+  </div>
+</div>

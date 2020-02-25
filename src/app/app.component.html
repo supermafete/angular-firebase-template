@@ -1,0 +1,5 @@
+<div *ngIf="showTopBar" id="topBar">
+    <img src="/assets/logo.jpg" style="height: 35px; float: left">
+    <button pButton (click)="signOutClick()" label="Sign out" style="float: right;"></button>
+</div>
+<router-outlet (activate)="onRouterOutletActivate($event)"></router-outlet>
