@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { AuthService } from './services/auth.service';
 import { Router } from '@angular/router';
 import { LoginPageComponent } from './pages/login-page/login-page.component';
 import { environment } from '../environments/environment';
+import { AngularFireAuth } from '@angular/fire/auth';
 
 @Component({
   selector: 'app-root',
@@ -15,8 +15,8 @@ export class AppComponent implements OnInit {
   showTopBar = false;
 
   constructor(
-    private auth: AuthService,
     private router: Router,
+    private auth: AngularFireAuth
   ) {}
 
   ngOnInit() {

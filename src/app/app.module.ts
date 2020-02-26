@@ -8,7 +8,6 @@ import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 
 // Firebase components
-import { AuthService } from './services/auth.service';
 import { FirebaseService } from './services/firebase.service';
 import { environment } from 'src/environments/environment';
 import { AngularFireModule } from '@angular/fire';
@@ -48,7 +47,7 @@ import { MessageModule } from 'primeng/message';
     InputTextModule,
     MessageModule
   ],
-  providers: [ AngularFireAuth, AngularFirestore, AuthService, FirebaseService ],
+  providers: [ AngularFireAuth, AngularFirestore, FirebaseService ],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }
